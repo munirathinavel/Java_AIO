@@ -2,13 +2,13 @@ package Tree;
 
 public class BinaryTree {
 
-	BinaryTreeNode root;
+	public BinaryTreeNode root;
 
 	public BinaryTree(int data) {
 		root = new BinaryTreeNode(data);
 	}
 
-	void add(BinaryTreeNode parent, String orientation, BinaryTreeNode child) {
+	public void add(BinaryTreeNode parent, String orientation, BinaryTreeNode child) {
 
 		if (("left").equals(orientation)) {
 			parent.left = child;
