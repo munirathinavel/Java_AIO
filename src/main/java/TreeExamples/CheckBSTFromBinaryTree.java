@@ -3,7 +3,7 @@ package TreeExamples;
 import Tree.BinaryTree;
 import Tree.BinaryTreeNode;
 
-public class CheckBST {
+public class CheckBSTFromBinaryTree {
 
 	public static void main(String[] args) {
 
